@@ -563,12 +563,35 @@ video {
   margin-right: auto;
 }
 
+.my-\[15px\] {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.my-\[55px\] {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.my-\[5px\] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .mt-\[-200px\] {
   margin-top: -200px;
 }
 
 .mt-\[70px\] {
   margin-top: 70px;
+}
+
+.mt-\[-250px\] {
+  margin-top: -250px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
 }
 
 .block {
@@ -591,6 +614,10 @@ video {
   height: 60px;
 }
 
+.h-\[20px\] {
+  height: 20px;
+}
+
 .w-\[10\%\] {
   width: 10%;
 }
@@ -611,8 +638,24 @@ video {
   width: 99%;
 }
 
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-\[10px\] {
@@ -627,6 +670,10 @@ video {
   border-radius: 100px;
 }
 
+.border-\[2px\] {
+  border-width: 2px;
+}
+
 .bg-\[\#E6514A\] {
   --tw-bg-opacity: 1;
   background-color: rgb(230 81 74 / var(--tw-bg-opacity, 1));
@@ -634,6 +681,10 @@ video {
 
 .bg-\[url\(\.\/mg\.png\)\] {
   background-image: url(./mg.png);
+}
+
+.to-black {
+  --tw-gradient-to: #000 var(--tw-gradient-to-position);
 }
 
 .bg-no-repeat {
@@ -659,6 +710,26 @@ video {
   padding-bottom: 20px;
 }
 
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[36px\] {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.py-\[45px\] {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -677,6 +748,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-\[\#3035C3\] {
   --tw-text-opacity: 1;
   color: rgb(48 53 195 / var(--tw-text-opacity, 1));
@@ -690,6 +766,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.shadow-black {
+  --tw-shadow-color: #000;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 @media (min-width: 640px) {
@@ -719,6 +800,10 @@ video {
 
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:text-start {
