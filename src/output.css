@@ -599,6 +599,18 @@ video {
   width: 90%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-\[99\%\] {
+  width: 99%;
+}
+
 .justify-between {
   justify-content: space-between;
 }
